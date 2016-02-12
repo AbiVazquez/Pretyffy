@@ -1,0 +1,46 @@
+/* MENU */
+.top{
+	margin-top: 30px;
+}
+.left{
+	position: relative;
+	left: 25%;
+}
+.lista{
+	display: inline;
+	list-style: none;
+	font-family: Oswald;
+	padding: 40px;
+}
+/*IMAGEN DE FONFO se usan estas propiedades para recortar
+y hacer un zoom a la imagen*/
+.corte{
+	width: 100%;
+	height: 30%;
+	overflow: hidden;
+}
+.corte img{
+	width: 100%;
+	height: 30%;
+	margin: 0 0 -20% 0;
+}
+/*LOGO Y TEXTO DENTRO DE LA IMAGEN DE FONDO*/
+.logo{
+	margin: -230px 380px 0 ;
+}
+/*Fondo de imagen con foto y texto*/
+.fondo{
+	background-image: url("../images/tile1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 450px;
+}
+h2{
+	font-family: Georgia;
+	text-align: center;
+	color: #CC2EFA;
+}
+.margen{
+	border: 2px solid black;
+	margin-top: 30px;
+}
